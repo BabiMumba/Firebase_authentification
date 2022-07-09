@@ -5,12 +5,11 @@ xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
 android:background="@drawable/signin_screen"
-tools:context=".SignInActivity">
+tools:context=".MainActivity">
 
 
 <com.google.android.material.textfield.TextInputLayout
     android:id="@+id/emailLayout"
-    style="@style/LoginTextInputOuterFieldStyle"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginHorizontal="16dp"
